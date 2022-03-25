@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<parameterConfiguration>
+
+    <!--线程设置-->
+    <poolConfig total="10"/>
+    <!--数据库链接URL，用户名、密码 -->
+    <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
+    <!--connectionURL="jdbc:mysql://192.168.165.219:3306/ens_upright?useUnicode=true&amp;characterEncoding=utf8"-->
+    <!--userId="root" password="123123"/>-->
+    <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+                    connectionURL="jdbc:oracle:thin:@10.10.65.77:1521/DCITS"
+                    userId="ENSEMBLE" password="ENSEMBLE"/>
+    <!-- DBTable 的配置 -->
+    <tableConfig schemaName="ENSEMBLE" isAllTable="false" isParamInit="false"/>
+    <!-- Excel 的配置 -->
+    <excelConfig targetDir="C:\Users\pansw\Desktop\110156-锡望贷-易起投\ProdPara_110156.xlsx"/>
+    <!-- File 的配置 建议的格式配置 format="PC" encoding="gb2312" 或 format="UNIX" encoding="utf-8" -->
+    <fileConfig targetDir="C:\Users\pansw\Desktop\110156-锡望贷-易起投\sql" format="PC" encoding="utf-8"/>
+    <!-- 要生成的表 -->
+    <!--  cp参数 -->
+    <!--  仅出厂时执行的参数表-->
+
+
+    <table tableName="GL_PROD_ACCOUNTING" desc=""/>
+    <table tableName="GL_PROD_CODE_MAPPING" desc=""/>
+    <table tableName="GL_PROD_MAPPING" desc=""/>
+    <table tableName="IRL_FEE_MAPPING" desc=""/>
+    <table tableName="MB_BRANCH_PROD" desc=""/>
+    <table tableName="MB_EVENT_ATTR" desc=""/>
+    <table tableName="MB_EVENT_PART" desc=""/>
+    <table tableName="MB_EVENT_TYPE" desc=""/>
+    <table tableName="MB_PROD_DEFINE" desc=""/>
+    <table tableName="MB_PROD_TYPE" desc=""/>
+    <table tableName="SL_PROD_INFO" desc=""/>
+</parameterConfiguration>
+
+
