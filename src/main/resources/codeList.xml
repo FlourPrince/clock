@@ -2,11 +2,11 @@
 <parameterConfiguration>
 
 
-    <gitlabApi hostUrl="http://10.10.65.99/" privateToken="gQbK4sXXNZuqaDyGY84u"/>
+    <gitlabApi hostUrl="http://10.100.3.120/" privateToken="zyVyRk68Fxk-mvSTei_X"/>
     <gitlabApi projectId="131"/>
 
-    <excelConfig sourceDir="D:\xiBank\word\hexin\doc\trunk\02 锡商核心二期\13 环境管理\05 版本送测\01 核心送测清单\XSBANK_核心版本_送测清单_20220407.xlsx"/>
-    <excelConfig targetDir="D:\xiBank\word\hexin\doc\trunk\02 锡商核心二期\13 环境管理\05 版本送测\01 核心送测清单\XSBANK_核心版本_送测清单_20220407-代码清单.xlsx"/>
+    <excelConfig sourceDir="D:\xiBank\word\hexin\doc\trunk\02 锡商核心二期\13 环境管理\05 版本送测\01 核心送测清单\XSBANK_核心版本_送测清单_20220428.xlsx"/>
+    <excelConfig targetDir="D:\xiBank\word\hexin\doc\trunk\02 锡商核心二期\13 环境管理\05 版本送测\01 核心送测清单\XSBANK_核心版本_送测清单_20220428-代码清单.xlsx"/>
 
 
 

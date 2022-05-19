@@ -43,9 +43,17 @@ public class ReadExcel {
 				if(row!=null){
 					Cell cell13 = row.getCell(13);
 					if (cell13 != null) {
-						String branches = cell13.getStringCellValue().trim();
-						String owner = row.getCell(16).getStringCellValue().trim();
-						map.put(branches, owner);
+						String branches = cell13.getStringCellValue();
+						if (branches != null) {
+							if (!"无".equals(branches.trim())) {
+								String owner = row.getCell(16).getStringCellValue();
+								if (owner != null) {
+									map.put(branches.trim(), owner.trim());
+								}
+							}
+						}
+
+
 					}
 				}
 
